@@ -1,0 +1,25 @@
+.logo-nike {
+    text-align: center;
+}
+
+.logo-nike button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 200px;
+    height: 70px;
+    border-radius: 75px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+.logo-nike button:hover{
+    opacity: 0.8;
+}
+
