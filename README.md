@@ -1,6 +1,6 @@
-#Lưu ý:
+# Lưu ý:
 đây là trang web đơn giản, được xây dựng trong quá trình học trên trường nên sẽ không tránh được nhiều sai sót cơ bản thiết yêu của một website
-#Website bán giày Nike
+# Website bán giày Nike
 
 Sử dụng ReactJS để xây dựng lên giao diện chính cho website
 
@@ -10,7 +10,7 @@ sử dụng MongoDB để lưu trữ các dữ liệu
 
 sử dụng ViteJS để xây dựng Admin Page
 
-#Một Số giao diện Demo
+# Một Số giao diện Demo
 
 ![image](https://github.com/binhnt3002/website-shoes-Nike/assets/110091348/b850a3d1-8927-42e5-86d5-0b76c36bffcd)
 
