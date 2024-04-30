@@ -1,6 +1,7 @@
 # Lưu ý:
 đây là trang web đơn giản, được xây dựng trong quá trình học trên trường nên sẽ không tránh được nhiều sai sót cơ bản thiết yêu của một website
 Đây chỉ source code để tham khảo và đã che đi tài khoản mật khẩu đb và không thể hiển thị các sản như hình demo
+Chưa deploy hosting webstie
 # Website bán giày Nike
 
 Sử dụng ReactJS để xây dựng lên giao diện chính cho website
