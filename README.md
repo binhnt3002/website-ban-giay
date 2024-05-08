@@ -1,7 +1,9 @@
 # Lưu ý:
-đây là trang web đơn giản, được xây dựng trong quá trình học trên trường nên sẽ không tránh được nhiều sai sót cơ bản thiết yêu của một website
-Đây chỉ source code để tham khảo và đã che đi tài khoản mật khẩu đb và không thể hiển thị các sản như hình demo
-Hiện tại chưa có thể deploy hosting webstie , nhưng có thể chạy thông qua localhost
+Đây là trang web đơn giản, được xây dựng trong quá trình học trên trường nên sẽ không tránh được nhiều sai sót cơ bản thiết yêu của một website
+
+Hiện tại chưa có thể deploy hosting webstie 
+
+Nhưng có thể chạy thông qua localhost dùng Docker để chạy dữ liệu
 
 # chạy web thông qua Docker
 Yêu Cầu : Cần cài đặt Docker sẵn trong máy
