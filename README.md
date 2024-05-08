@@ -20,12 +20,13 @@ cd Font-end/ && npm install
 cd admin/ && npm install 
 ```
 Bước 3: tiến hành chạy file Docker dùng ```docker compose```
-Thu mục Back-end
+
+- Thu mục Back-end
 ```
  cd Back-end/ && docker compose up --build
 ```
-Bước 4: khi chạy docker thành công 
-tạo thêm một terminal để chạy font-end hoặc admin ```Ctrl + Shift + 5``` trên Visual Studio Code Windows
+Bước 4: Sau khi chạy ```docker compose up --build ```
+- tạo thêm một terminal để chạy font-end hoặc admin ```Ctrl + Shift + 5``` trên Visual Studio Code Windows
 ```
 cd Font-end/ && npm start
 ```
