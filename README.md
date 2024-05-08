@@ -1,9 +1,34 @@
 # Lưu ý:
 đây là trang web đơn giản, được xây dựng trong quá trình học trên trường nên sẽ không tránh được nhiều sai sót cơ bản thiết yêu của một website
 Đây chỉ source code để tham khảo và đã che đi tài khoản mật khẩu đb và không thể hiển thị các sản như hình demo
-Hiện tại chưa có thể deploy hosting webstie
-Có thể chạy localhost thông qua Docker
-$ git clone
+Hiện tại chưa có thể deploy hosting webstie , nhưng có thể chạy thông qua localhost
+
+# chạy web thông qua Docker
+Yêu Cầu : Cần cài đặt Docker sẵn trong máy
+Bước 1 : tải file .zip hoặc clone project thông qua git clone
+```
+git clone https://github.com/binhnt3002/website-ban-giay.git
+```
+Bước 2 : chạy lệnh khởi tạo
+Thư mục Font-end
+```
+cd Font-end/ && npm install 
+```
+Thư mục admin
+```
+cd admin/ && npm install 
+```
+Bước 3: tiến hành chạy file Docker dùng ```docker-compose```
+Thu mục Back-end
+```
+docker-compose up --build
+```
+Bước 4: khi chạy docker thành công 
+tạo thêm một terminal để chạy font-end hoặc admin ```Ctrl + Shift + 5``` trên Visual Studio Code Windows
+```
+cd Font-end/ && npm start
+```
+
 # Website bán giày Nike
 
 Sử dụng ReactJS để xây dựng lên giao diện chính cho website
