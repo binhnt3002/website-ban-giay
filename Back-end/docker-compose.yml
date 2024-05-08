@@ -1,0 +1,25 @@
+version: "3.0"
+
+services:
+  mongo_db:
+    container_name: database_container
+    image: mongo:latest
+    restart: always 
+    volumes:
+      - mongo_db:/data/db
+
+
+  api:
+    build: .
+    ports:
+      - 4444:4000
+    environment:
+      PORT: 4000
+      MONGO_STRINS_CONNECT: mongodb+srv://tanbinh159:Ping123@cluster0.lpysknq.mongodb.net/e-commerce
+      MONGO_URL: mongodb+srv://tanbinh159:Ping123@cluster0.lpysknq.mongodb.net/e-commerce?retryWrites=true&w=majority&appName=Cluster0
+    depends_on:
+      - mongo_db
+
+volumes:
+  mongo_db: {}
+
