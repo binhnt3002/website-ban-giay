@@ -10,11 +10,12 @@ Bước 1 : tải file .zip hoặc clone project thông qua git clone
 git clone https://github.com/binhnt3002/website-ban-giay.git
 ```
 Bước 2 : chạy lệnh khởi tạo
-Thư mục Font-end
+
+- Thư mục Font-end
 ```
 cd Font-end/ && npm install 
 ```
-Thư mục admin
+- Thư mục admin
 ```
 cd admin/ && npm install 
 ```
