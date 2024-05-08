@@ -5,6 +5,7 @@ Hiện tại chưa có thể deploy hosting webstie , nhưng có thể chạy th
 
 # chạy web thông qua Docker
 Yêu Cầu : Cần cài đặt Docker sẵn trong máy
+
 Bước 1 : tải file .zip hoặc clone project thông qua git clone
 ```
 git clone https://github.com/binhnt3002/website-ban-giay.git
