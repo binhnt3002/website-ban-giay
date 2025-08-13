@@ -1,6 +1,6 @@
 version: "3.0"
 
-services:
+services:    
   mongo_db:
     container_name: database_container
     image: mongo:latest
