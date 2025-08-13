@@ -21,7 +21,7 @@ const ShopContextProvider = (props) => {
     
     useEffect(() => {
         fetch('http://localhost:4444/allproduct')
-        .then((resp)=>{console.log(resp);resp.json();})
+        .then((resp)=>resp.json())
         .then((data) => setAll_product(data))
 
         if (localStorage.getItem('auth-token')) {
