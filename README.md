@@ -12,28 +12,18 @@ Bước 1 : tải file .zip hoặc clone project thông qua git clone
 ```
 git clone https://github.com/binhnt3002/website-ban-giay.git
 ```
-Bước 2 : chạy lệnh khởi tạo
 
-- Thư mục Font-end
-```
-cd Font-end/ && npm install 
-```
-- Thư mục admin
-```
-cd admin/ && npm install 
-```
-Bước 3: tiến hành chạy file Docker dùng ```docker compose```
+Bước 2: tiến hành chạy file Docker dùng ```docker compose```
 
 - Thu mục Back-end
 ```
  cd Back-end/ && docker compose up --build
 ```
-Bước 4: Sau khi chạy ```docker compose up --build ```
-- tạo thêm một terminal để chạy font-end hoặc admin ```Ctrl + Shift + 5``` trên Visual Studio Code Windows
+Hãy mở thêm 1 terminal
+- Thư mục Font-end
 ```
-cd Font-end/ && npm start
+ cd  Font-end/ && docker build -t font-end . && docker run font-end
 ```
-
 # Website bán giày Nike
 
 Sử dụng ReactJS để xây dựng lên giao diện chính cho website
